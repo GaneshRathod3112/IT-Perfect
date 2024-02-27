@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/* ======================== navbar start ======================= */
+
+.nav {
+    width: 96%;
+    height: 3vw;
+    padding: 0 2vw;
+    margin-left: 2vw;
+    border-bottom: 0.3vh solid whitesmoke;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#logo h1 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list button {
+    width: 2vw;
+    display: none;
+}
+
+button{
+    border: none;
+    display: none;
+}
+
+.landscape .items{
+    text-transform: uppercase;
+    display: flex;
+    gap: 3vw;
+    font-size: 1vw;
+}
+
+.landscape .items a{
+    text-decoration: none;
+}
+
+.landscape .items a:hover{
+    border: 1px groove black;
+    color: whitesmoke;
+    background-color: rgb(123, 180, 255);
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.menu{
+    display: none;
+}
+
+/* ======================== navbar end ======================= */
+
+/* ========================== main page start ========================== */
+
+.main-page{
+    display: flex;
+}
+
+.main-page .content{
+    width: 50vw;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-left: 2vw;
+
+}
+
+.content h1{
+    font-size: 3vw;
+    text-shadow: 0.3vw 0.2vw rgba(247, 89, 50, 0.664);
+}
+
+.content h3{
+    font-size: 3vw;
+    font-weight: 1200;
+    margin-top: 2vw;
+}
+
+.content p{
+    font-size: 1.5vw;
+    margin-top: 5vw;
+}
+
+.main-page img{
+    width: 50vw;
+    margin-top: 8vw;
+}
+
+.button{
+    justify-content: center;
+    text-align:center;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 1vw;
+    color: white;
+    margin: 10vw;
+    border-radius: 1vw;
+
+}
+
+.button a:hover{
+    background-color: red;
+    color: black;
+    padding: 2vw;
+    border-radius: 50%;
+    font-size: 2vw;
+}
+
+/* ============================= main page end ============================ */
+
+/* ============================= about page start ============================ */
+
+
+#about{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.about-top{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    background-color: black;
+}
+
+#about .left{
+    width: 50%;
+    height: 100%;
+}
+
+#about .right{
+    width: 50%;
+    height: 100%;
+}
+
+#about .left img{
+    width: 40vw;
+    height: 24vw;
+    margin-left: 5vw;
+}
+
+#about .right p{
+    font-size: 2vw;
+    text-align: center;
+    margin: 5vw;
+}
+
+.about-bottom{
+    width: 90vw;
+    height: 50%;
+    margin-left: 5vw;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-bottom h1{
+    margin: 1vw 0vh;
+    font-size: 4vw;
+    margin-bottom: 4vw;
+}
+
+.teachers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-bottom .teachers img{
+    width: 12vw;
+    height: 16vw;
+    border: 5px groove black;
+    background-color: white;
+
+}
+
+.about-bottom .teachers .profile{
+    border: 2px black solid;
+    margin-bottom: 5vw;
+    text-align: center;
+}
+
+.about-bottom .teachers .profile h3,h4{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+/* ============================= about page end ============================ */
+
+ /* ============================= courses page start ============================  */
+
+#course{
+    width: 100vw;
+    height: 100vw;
+    margin-left: 5vw;
+    background-color:black;
+}
+
+.course{
+    display: flex;
+
+}
+
+.course-img{
+    width: 35vw;
+    height: 15vw;
+    margin-top: 3vw;
+    
+}
+
+.course-p{
+    width: 50%;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 3vw;
+    padding: 3vw;
+}
+
+
+/* =========================== sign up page start ====================== */
+
+.sign-page{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.log-in{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    display:inline-block;
+    
+}
+
+.sign-page h1{
+    margin:5vw;
+}
+
+.log-in h1{
+    margin:5vw;
+}
+
+.form input{
+    color: black;
+    text-align: center;
+    padding: 1vw 5vw;
+    margin:2vw 0;
+    border-radius: 2vw;
+}
+
+.submit{
+    font-size: 1.5vw;
+    cursor: pointer;
+    border-radius: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    /* ======================== navbar start ======================= */
+
+    .nav {
+        height: 10vw;
+    }
+
+    #logo h1 {
+        font-size: 4vw;
+    }
+
+    .landscape .items{
+        display: none;
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btn{
+        margin-left:9vw;
+        display: block;
+        position:sticky;
+    }
+
+    .items{
+        display: none;
+    }
+
+    .menu{
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(10, 10, 10, 0.267);
+        display:none;
+    }
+
+    #potrait{
+        text-align: center;
+        
+    }
+
+    #potrait .li{
+        font-size: 5vw;
+        line-height: 20vh;
+        color: whitesmoke;
+    }
+
+    #potrait .li a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .menu a:hover{
+        border: 1px groove black;
+        color: whitesmoke;
+        background-color: rgb(123, 180, 255);
+        padding: 1vh;
+        border-radius: 1vw;
+    }
+
+    /* ======================== navbar end ======================= */
+
+    .main-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-page .content{
+        width: 80vw;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10vw;
+    
+    }
+    
+    .content h1{
+        font-size: 13vw;
+        text-shadow: 2vw 1vw rgba(34, 33, 33, 0.438);
+    }
+    
+    .content h3{
+        font-size: 8vw;
+        font-weight: 1200;
+        margin-top: 10vw;
+    }
+    
+    .content p{
+        font-size: 5vw;
+        margin-top: 15vw;
+    }
+    
+    .main-page img{
+        width: 100vw;
+        margin-top: 8vw;
+    }
+
+    
+
+    /* ===================about start =====================/ */
+
+    #about .left{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #about .right{
+        width: 100%;
+        height: 100%;
+    }
+
+    #about .left img{
+        width: 70vw;
+        height: 34vw;
+        margin-left: 15vw;
+    }
+
+    #about .right p{
+        font-size: 5vw;
+        text-align: center;
+        margin: 5vw;
+    }
+
+    .teachers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-bottom{
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        background-color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .profile img{
+        margin-top: 8vw;
+    }
+
+    .profile h3 , h4{
+        margin-top: 3vw;
+    }
+
+    /* ===================== about end ===================== */
+
+    /* ============================= courses page start ============================ */
+
+    #course{
+        width: 100vw;
+        height: 100vw;
+        background-color:black;
+
+    }
+
+    .course{
+        display: block;
+        margin-right: 10vw;
+        border-bottom: 0.5vw solid red;
+        padding: 2vw;
+    }
+
+    .course-img{
+        width: 60vw;
+        height: 30vw;
+        margin-top: 3vw;
+        margin-left: 15vw;
+        
+    }
+    
+    .course-p{
+        width: 80%;
+        font-size: 3vw;
+        text-align: center;
+        margin-top: 3vw;
+        margin-left: 10vw;
+    }
+
+
+    /* ============================= login & sign up start ==================== */
+
+    .sign-page{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        margin-top: 30vw;
+        text-align: center;
+        
+    }
+
+    .sign-page h1{
+        margin:10vw;
+    }
+    
+    .form input{
+        color: black;
+        text-align: center;
+        padding: 1vw 5vw;
+        margin:5vw 0;
+        border-radius: 2vw;
+    }
+    
+    .submit{
+        font-size:4vw;
+        cursor: pointer;
+        border-radius: 3vw;
+    }
+
+    .log-in{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        margin-top: 30vw;
+        text-align: center;
+        
+    }
+
+    .log-in h1{
+        margin:10vw;
+    }
+    
+    .form input{
+        color: black;
+        text-align: center;
+        padding: 1vw 5vw;
+        margin:5vw 0;
+        border-radius: 2vw;
+    }
+    
+    .submit{
+        font-size:4vw;
+        cursor: pointer;
+        border-radius: 3vw;
+    }
+
+
+
+
+} 
